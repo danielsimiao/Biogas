@@ -34,7 +34,7 @@ dataset = pd.DataFrame(
 
 print(dataset)
 
-dataset.plot(y='Potência(MW)',kind='bar', legend=False, grid=True, title='Biometano de aterro sanitário por UF')
+dataset.plot(y='Potência(MW)',kind='bar', legend=False, grid=True, title='Biometano de Aterro Sanitário por UF')
 plt.savefig('grafico.png')
 plt.show()
 plt.close()
