@@ -35,4 +35,6 @@ dataset = pd.DataFrame(
 print(dataset)
 
 dataset.plot(y='Potência(MW)',kind='bar', legend=False, grid=True)
+plt.savefig('grafico.png')
 plt.show()
+plt.close()
